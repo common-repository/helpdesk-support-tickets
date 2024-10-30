@@ -1,0 +1,20 @@
+[29/Aug/2017:18:35:14]*/*/*ERROR*/*/*hst_DbInstall_InstallDatabaseObjects*/*/*Invalid default value for 'AttachmentCreatedDate'
+[29/Aug/2017:19:23:59]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:19:23:59]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.
+[29/Aug/2017:19:23:59]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:19:23:59]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.
+[29/Aug/2017:19:30:36]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:19:30:36]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.
+[29/Aug/2017:19:30:36]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:19:30:36]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.
+[29/Aug/2017:19:30:40]*/*/*ERROR*/*/*hst_Classes_Ticket.UpdateLastUpdateDate*/*/*
+[29/Aug/2017:19:30:41]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:19:30:41]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.
+[29/Aug/2017:19:53:35]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:19:53:35]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.
+[29/Aug/2017:19:53:35]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:19:53:35]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.
+[29/Aug/2017:20:00:37]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:20:00:37]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.
+[29/Aug/2017:20:00:37]*/*/*ERROR*/*/*hst_Classes_Attachments.ListByEntityTypeAndIdFromDB*/*/*Table 'WordPress.wp_hst_attachments' doesn't exist
+[29/Aug/2017:20:00:37]*/*/*ERROR*/*/*hst_ajax_dashboard_shared_listattachments*/*/*An error has occurred.

@@ -1,0 +1,194 @@
+
+
+/* ---------------------------------------------------------------------------------- */
+/* TICKET LIST RESULT PANE */
+#hst-controls-tickets-simplesearch-statusesplaceholder {
+    margin-top: 10px;
+}
+
+.hst-controls-tickets-simplesearch-statusitem {
+    height: 23px;
+    background-color: #ffffff;
+    margin-left: 0px !Important;
+    margin-right: 0px !important;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding-top: 3px;
+    cursor: pointer;
+    border: 1px solid #eee;
+}
+
+    .hst-controls-tickets-simplesearch-statusitem:hover {
+        background-color: rgba(88, 140, 0, 0.15) !important;
+    }
+
+    .hst-controls-tickets-simplesearch-statusitem-badge
+    {
+        float:right !important;
+        font-size:10px !important;
+        font-weight:normal !important;
+        background-color: #aaa !important;
+    }
+
+.hst-controls-tickets-simplesearch-statusitem_statusfilteractive {
+    background: rgba(88, 140, 0, 0.15) !important;
+}
+
+
+.hst-controls-tickets-simplesearch-statusitemlittleball
+{
+    width:10px;
+    height:10px;
+    float: left;
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-right:5px;
+    
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* TICKET LIST RESULT PANE */
+
+.hst-ticketslist-resultbody {
+    border: 1px solid #e7e7e7;
+    border-bottom: 0px;
+    padding: 5px 0px 5px 0px;
+    min-height: 70px;
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.hst-ticketslist-resultbody-number {
+    border: 1px solid #5cb85c;
+    float: left;
+    background-color: #5cb85c;
+    margin-top: 3px;
+    height: 18px;
+    border-radius: 3px;
+    margin-right: 4px;
+    padding: 0px 11px;
+    color: #fff;
+    font-size: 100%;
+}
+
+.hst-ticketslist-resultbody-title {
+    font-size: 150%;
+    margin-bottom: 2px;
+}
+
+.hst-ticketslist-resultbody-editbutton
+{
+    padding-left: 11px;
+    padding-bottom: 2px;
+    height: 28px;
+    margin-top: 4px;
+}
+
+.hst-ticketslist-resultbody-labels {
+    margin-top: 8px;
+    float: right;
+}
+
+    .hst-ticketslist-resultbody-labels > .label {
+        font-size: 110%;
+        font-weight: normal;
+    }
+
+.hst-ticketslist-resultbody-editicon {
+}
+
+.hst-ticketslist-resultfooter {
+    border: 1px solid #e7e7e7;
+    border-top: 0px;
+    background-color: #f5f5f5;
+    margin-bottom: 15px;
+    padding: 5px 0px 5px 0px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #a39d9b;
+}
+
+.hst-ticketslist-resultfooter-assigned {
+    border-right: 1px solid #d1cecd;
+}
+
+.hst-ticketslist-resultfooter-priority {
+    border-right: 1px solid #d1cecd;
+}
+
+.hst-ticketslist-resultfooter-created {
+    border-right: 1px solid #d1cecd;
+}
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* TICKET VIEW LIST EVENTS */
+#hst-controls-tickets-view-panel-ticketevents-placeholder {
+    margin-bottom: 30px;
+    margin-top: 55px;
+    /*height: 400px;*/
+}
+
+.hst-ticketsview-eventslist-block {
+    margin-bottom: 20px;
+}
+
+.hst-ticketsview-eventslist-block-userpane {
+}
+
+.hst-ticketsview-eventslist-block-userpane-photo {
+}
+
+.hst-ticketsview-eventslist-block-userpane-user {
+}
+
+.hst-ticketsview-eventslist-block-messagepane {
+    background-color: #f2f2f2;
+    border-color: #e6e6e6;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.hst-ticketsview-eventslist-block-messagepane-self {
+    background-color: rgba(88, 140, 0, 0.15) !important;
+    text-align:right;
+}
+
+.hst-ticketsview-eventslist-block-date {
+    margin-bottom: 5px;
+}
+
+.hst-ticketsview-eventslist-block-message {
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* TICKET NEW PAGE */
+#hst-controls-tickets-new-txt-ticketproblem {
+    height: 156px !important;
+}
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* TICKET VIEW PAGE */
+#hst-controls-tickets-view-home-div-title {
+    font-size:22px;
+}
+.hst-controls-tickets-view-home-div-title-quotes {
+    font-size:12px;
+    color:#72777c;
+}
+/* ---------------------------------------------------------------------------------- */

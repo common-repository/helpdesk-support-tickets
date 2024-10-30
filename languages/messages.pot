@@ -1,0 +1,979 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-05 11:34+0200\n"
+"PO-Revision-Date: 2017-05-05 15:23+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: controls/dashboard/customers-list.php:4
+msgid "Customers List"
+msgstr "Lista Clienti"
+
+#: controls/dashboard/modals.php:8
+msgid "Select User"
+msgstr "Seleziona Utente"
+
+#: controls/dashboard/modals.php:18 controls/dashboard/modals.php:57
+msgid "Name"
+msgstr "Nome"
+
+#: controls/dashboard/modals.php:19 controls/dashboard/modals.php:58
+msgid "Email"
+msgstr "Email"
+
+#: controls/dashboard/modals.php:30 controls/dashboard/modals.php:70
+#: controls/dashboard/modals.php:111
+msgid "Close"
+msgstr "Chiudi"
+
+#: controls/dashboard/modals.php:47
+msgid "Select Customer"
+msgstr "Seleziona Cliente"
+
+#: controls/dashboard/modals.php:59 controls/dashboard/tickets-list.php:62
+#: controls/dashboard/tickets-view-ticketattachments.php:16
+msgid "Action"
+msgstr "Azione"
+
+#: controls/dashboard/modals.php:87
+msgid "Select and Upload New Attachment"
+msgstr "Seleziona e carica Nuovo Allegato"
+
+#: controls/dashboard/modals.php:128
+#: controls/dashboard/tickets-view-tickethome.php:30
+msgid "Add New Message"
+msgstr "Aggiungi Messaggio"
+
+#: controls/dashboard/modals.php:149 controls/dashboard/tickets-new.php:144
+#: controls/frontend/createticket.php:92
+#: controls/settings/settings-frontend.php:66
+#: controls/settings/settings-generic.php:77
+#: controls/settings/settings-notifications.php:115
+#: controls/settings/settings-notifications.php:262
+#: controls/settings/settings-system.php:117
+#: controls/settings/settings-ticket-categories.php:36
+msgid "Cancel"
+msgstr "Annulla"
+
+#: controls/dashboard/modals.php:155
+msgid "Save Message"
+msgstr "Salva Messaggio"
+
+#: controls/dashboard/tickets-list-simplesearch.php:5
+msgid "Quick Ticket Search"
+msgstr "Ricerca Veloce Tickets"
+
+#: controls/dashboard/tickets-list-simplesearch.php:13
+msgid "Search by Number, Customer, Problem:"
+msgstr "Cerca per Numero, Cliente, Problema:"
+
+#: controls/dashboard/tickets-list-simplesearch.php:24
+msgid "Filter By Status:"
+msgstr "Filtra per Stato:"
+
+#: controls/dashboard/tickets-list-simplesearch.php:33
+msgid "Search"
+msgstr "Cerca"
+
+#: controls/dashboard/tickets-list.php:21
+msgid "Search Result for Support Tickets"
+msgstr "Risultati della ricerca Tickets"
+
+#: controls/dashboard/tickets-list.php:27
+msgid "New Support Ticket"
+msgstr "Crea Nuovo Ticket"
+
+#: controls/dashboard/tickets-list.php:41
+msgid "Search returned"
+msgstr "La ricerca ha prodotto"
+
+#: controls/dashboard/tickets-list.php:43
+msgid "support ticket(s)."
+msgstr "tickets di supporto"
+
+#: controls/dashboard/tickets-list.php:57
+msgid "Customer"
+msgstr "Cliente"
+
+#: controls/dashboard/tickets-list.php:58
+msgid "Problem"
+msgstr "Problema"
+
+#: controls/dashboard/tickets-list.php:59
+#: controls/dashboard/tickets-new.php:112
+#: controls/frontend/createticket.php:66
+msgid "Category"
+msgstr "Categoria"
+
+#: controls/dashboard/tickets-list.php:60
+msgid "Status"
+msgstr "Stato"
+
+#: controls/dashboard/tickets-list.php:61
+msgid "Updated"
+msgstr "Aggiornato"
+
+#: controls/dashboard/tickets-list.php:74
+msgid "The search returned no result or the Support Tickets database is empty."
+msgstr "La ricerca non ha prodotto risultati o l'archivio è vuoto."
+
+#: controls/dashboard/tickets-list.php:74
+msgid ""
+"Review your search filter or create a New Support Ticket by using the button "
+"at top right of this screen."
+msgstr ""
+"Cambia i filtri di ricerca o crea un nuovo Ticket di Support usando il "
+"pulsante in alto a destra."
+
+#: controls/dashboard/tickets-new.php:13
+msgid "1. Select Customer"
+msgstr "1. Seleziona Cliente"
+
+#: controls/dashboard/tickets-new.php:22
+msgid "Create Customer"
+msgstr "Crea Nuovo Cliente"
+
+#: controls/dashboard/tickets-new.php:27
+msgid "Customer Name"
+msgstr "Nome Cliente"
+
+#: controls/dashboard/tickets-new.php:33
+msgid "Customer Email Address"
+msgstr "Email Cliente"
+
+#: controls/dashboard/tickets-new.php:43
+msgid "Existing Customer"
+msgstr "Cliente Esistente"
+
+#: controls/dashboard/tickets-new.php:47
+msgid "(no customer selected)"
+msgstr "(nessun cliente selezionato)"
+
+#: controls/dashboard/tickets-new.php:51
+msgid "Select Existing Customer"
+msgstr "Seleziona Cliente Esistente"
+
+#: controls/dashboard/tickets-new.php:69
+msgid "2. Problem Details"
+msgstr "2. Dettagli sul Problema"
+
+#: controls/dashboard/tickets-new.php:78
+msgid "Ticket Title"
+msgstr "Titolo Ticket"
+
+#: controls/dashboard/tickets-new.php:86 controls/frontend/createticket.php:57
+msgid "Problem Description"
+msgstr "Descrizione Problema"
+
+#: controls/dashboard/tickets-new.php:103
+msgid "3. Other Info"
+msgstr "3. Altre informazioni"
+
+#: controls/dashboard/tickets-new.php:120
+msgid "Priority"
+msgstr "Priorità"
+
+#: controls/dashboard/tickets-new.php:148
+msgid "Save Support Ticket"
+msgstr "Salva Ticket di Supporto"
+
+#: controls/dashboard/tickets-view-ticketattachments.php:12
+msgid "File"
+msgstr "Allegato"
+
+#: controls/dashboard/tickets-view-ticketattachments.php:13
+msgid "Uploaded By"
+msgstr "Caricato da"
+
+#: controls/dashboard/tickets-view-ticketattachments.php:14
+msgid "Uploaded On"
+msgstr "Caricato il"
+
+#: controls/dashboard/tickets-view-ticketattachments.php:15
+msgid "Size"
+msgstr "Dimensione"
+
+#: controls/dashboard/tickets-view-ticketattachments.php:26
+msgid "No Attachments Support Ticket yet."
+msgstr "Nessun allegato per questo Ticket"
+
+#: controls/dashboard/tickets-view-ticketattachments.php:27
+msgid "If you want to Add a new Attachment, please click the button below."
+msgstr "Per allegare un nuovo file, cliccare sul pulsante qui sotto."
+
+#: controls/dashboard/tickets-view-ticketattachments.php:35
+msgid "Upload New Attachment"
+msgstr "Carica nuovo Allegato"
+
+#: controls/dashboard/tickets-view-ticketdata.php:9
+#: controls/frontend/createticketconfirmation.php:25
+#: controls/frontend/mytickets.php:21 controls/frontend/viewticket.php:74
+#: pages/installationwizard.php:134 pages/installationwizard.php:172
+#: pages/installationwizard.php:219 pages/installationwizard.php:250
+msgid "Go Back"
+msgstr "Indietro"
+
+#: controls/dashboard/tickets-view-ticketdata.php:13
+#: controls/settings/settings-ticket-categories.php:99
+msgid "Delete"
+msgstr "Elimina"
+
+#: controls/dashboard/tickets-view-ticketdata.php:20
+msgid "Ticket Data"
+msgstr "Dati Ticket"
+
+#: controls/dashboard/tickets-view-ticketdata.php:46
+msgid "Save Ticket Data"
+msgstr "Salva Dati Ticket"
+
+#: controls/dashboard/tickets-view-ticketdata.php:53
+msgid "Customer Information"
+msgstr "Informazioni Cliente"
+
+#: controls/dashboard/tickets-view-ticketdata.php:63
+msgid "Change Customer"
+msgstr "Cambia Cliente"
+
+#: controls/dashboard/tickets-view-ticketdata.php:75
+msgid "Support Agent"
+msgstr "Operatore"
+
+#: controls/dashboard/tickets-view-tickethome.php:47
+msgid "Date Created"
+msgstr "Creato il"
+
+#: controls/dashboard/tickets-view-tickethome.php:53
+msgid "Date Last Updated"
+msgstr "Aggiornato il"
+
+#: controls/dashboard/tickets-view-tickethome.php:59
+msgid "Date Closed"
+msgstr "Chiuso il"
+
+#: controls/dashboard/tickets-view.php:23
+msgid ""
+"This Support Ticket has been closed, therefore no modifications are allowed."
+msgstr ""
+"Questo Ticket è stato chiuso, pertanto non sono ammesse ulteriori modifiche."
+
+#: controls/dashboard/tickets-view.php:37
+msgid "General"
+msgstr "Generale"
+
+#: controls/dashboard/tickets-view.php:40
+msgid "Attachments"
+msgstr "Allegati"
+
+#: controls/dashboard/tickets-view.php:43
+msgid "Other Info"
+msgstr "Altre Informazioni"
+
+#: controls/dashboard/tickets-view.php:55
+msgid "others"
+msgstr "altro"
+
+#: controls/dashboard/topmenu.php:29
+msgid "Support Tickets"
+msgstr "Ticket di Supporto"
+
+#: controls/dashboard/topmenu.php:37
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: controls/frontend/createticket.php:21
+msgid "Create New Support Ticket"
+msgstr "Crea Nuovo Ticket"
+
+#: controls/frontend/createticket.php:25
+msgid ""
+"Fill the information below to create a new Support Ticket. Our team will get "
+"in touch with your as soon as possible. Thank you!"
+msgstr ""
+"Riempire le informazioni per creare un nuovo Ticket. Il nostro Team di "
+"Supporto vi contatterà non appena possibile, grazie!"
+
+#: controls/frontend/createticket.php:30
+msgid "Your Name"
+msgstr "Il tuo Nome"
+
+#: controls/frontend/createticket.php:39
+msgid "Your Email Address"
+msgstr "La tua Email"
+
+#: controls/frontend/createticket.php:48
+msgid "Support Request Title"
+msgstr "Titolo Richiesta"
+
+#: controls/frontend/createticket.php:97
+msgid "Submit Ticket"
+msgstr "Inoltra Richiesta"
+
+#: controls/frontend/createticketconfirmation.php:4
+msgid "A New Support Ticket has been Created"
+msgstr "Nuova Richiesta di Supporto"
+
+#: controls/frontend/createticketconfirmation.php:8
+msgid "Thank you for creating a Support Ticket."
+msgstr "Grazie per avere creato un nuovo Ticket di Supporto."
+
+#: controls/frontend/createticketconfirmation.php:9
+msgid ""
+"An Operator will manage your request as soon as possible, and contact you."
+msgstr ""
+"Un operatore gestirà la vostra richiesta al più presto possibile e vi "
+"contatterà."
+
+#: controls/frontend/createticketconfirmation.php:15
+msgid "Your Ticket Number:"
+msgstr "Il numero della tua richiesta di supporto:"
+
+#: controls/frontend/home.php:22
+msgid "Welcome to our Support Page!"
+msgstr "Benvenuti nella nostra pagina di Supporto!"
+
+#: controls/frontend/home.php:31
+msgid ""
+"Welcome to our Helpdesk. If you have a problem, a question or a request for "
+"help, you can create a New Support Ticket by clicking on the following "
+"button."
+msgstr ""
+"Benvenuti al nostro centro assistenza. Se avete un problema, una domanda o "
+"una richiesta di assistenza, potete creare un nuovo Ticket di Supporto "
+"cliccando sul pulsante qui sotto."
+
+#: controls/frontend/home.php:38
+msgid ""
+"You can review your existing Support Tickets by clicking on the 'Search "
+"Ticket' button."
+msgstr "Puoi visionare i tuoi Tickets cliccando sul pulsante di Ricerca."
+
+#: controls/frontend/home.php:52
+msgid "Create Ticket"
+msgstr "Crea Ticket"
+
+#: controls/frontend/home.php:64
+msgid "My Tickets"
+msgstr "Ricerca Tickets"
+
+#: controls/frontend/home.php:82
+msgid "The Support Service is available only to Registered Users."
+msgstr "Il servizio è attivo solo per gli Utenti Registrati."
+
+#: controls/frontend/home.php:84
+msgid ""
+"Please use the following button to Login (if you already have an account) or "
+"Register as a New User, thank you!"
+msgstr ""
+"Perfavore, usare il pulsate qui sotto per effettuare il login (se si "
+"disponse già di un account) o per registrarsi come nuovo utente, grazie!"
+
+#: controls/frontend/home.php:92
+msgid "Existing User Login"
+msgstr "Effettua Login"
+
+#: controls/frontend/home.php:97
+msgid "Register as New User"
+msgstr "Registrati"
+
+#: controls/frontend/mytickets.php:4
+msgid "My Support Tickets"
+msgstr "I miei Tickets"
+
+#: controls/frontend/mytickets.php:8
+msgid ""
+"This is a list of the Support Tickets that you have created. Click on the "
+"pencil icon to view the details and progress of the solution process. To "
+"create a new Support Ticket, click on the link at the bottom."
+msgstr ""
+"Questa è la lista dei Tickets che avete creato. Cliccare sull'icona a forma "
+"di matita per visualizzare i progressi per la risoluzione del problema. Per "
+"creare un nuovo Ticket, cliccare sul link in basso."
+
+#: controls/frontend/mytickets.php:14
+msgid "No Support Tickets found"
+msgstr "Nessun Ticket trovato"
+
+#: controls/frontend/mytickets.php:26
+msgid "Create New Ticket"
+msgstr "Crea Nuovo Ticket"
+
+#: controls/frontend/viewticket.php:4
+msgid "Review your Support Ticket"
+msgstr "Visualizza Ticket"
+
+#: controls/frontend/viewticket.php:8
+msgid ""
+"These are the details of your Support Request. You are able to add a message "
+"by using the text box at the bottom."
+msgstr ""
+"Questi sono i dettagli del vostro Ticket. E' possibile aggiungere messaggi "
+"usando la casella di testo in basso."
+
+#: controls/frontend/viewticket.php:12
+msgid "Number:"
+msgstr "Numero:"
+
+#: controls/frontend/viewticket.php:17
+msgid "Problem:"
+msgstr "Problema:"
+
+#: controls/frontend/viewticket.php:22
+msgid "Created On:"
+msgstr "Creato il:"
+
+#: controls/frontend/viewticket.php:27
+msgid "Last Updated:"
+msgstr "Aggiornato il:"
+
+#: controls/frontend/viewticket.php:35
+msgid ""
+"Below is the messages list between you and our Support Agent. Please use the "
+"controls at the bottom if you need to add a New Message."
+msgstr ""
+"Questa è la lista dei messaggi tra voi e il nostro Operatore. Usare i "
+"controlli in basso per aggiungere un nuovo Messaggio."
+
+#: controls/frontend/viewticket.php:41
+msgid "No Messages for this Support Ticket yet."
+msgstr "Nessun messaggio per questo Ticket."
+
+#: controls/frontend/viewticket.php:49
+msgid ""
+"Add New Message if you want to add information or reply to our Support Agent:"
+msgstr "Aggiungere un messaggio per comunicare con il nostro Operatore:"
+
+#: controls/frontend/viewticket.php:58
+msgid "Send Message"
+msgstr "Invia Messaggio"
+
+#: controls/settings/settings-frontend.php:12
+msgid "Front End Configuration"
+msgstr "Configurazione Front-End"
+
+#: controls/settings/settings-frontend.php:23
+msgid "Customer's Helpdesk Page:"
+msgstr "Pagina Support per Clienti"
+
+#: controls/settings/settings-frontend.php:39
+msgid ""
+"Select the page of this website that will be used as 'Support' for your "
+"Customers. Please make sure that the selected page contains the <strong>"
+"[helpdesk-support-tickets]</strong> shortcode. This page will also be used "
+"as target for the links contained in the email notifications."
+msgstr ""
+"Selezionare la pagina che verrà usata come pagina di Supporto per i "
+"visitatori. Perfavore, assicurarsi che la pagina contenga lo shortocode: <"
+"strong>[helpdesk-support-tickets]</strong>. Questa pagina sarà inoltre usata "
+"nei links contenuti nelle emails."
+
+#: controls/settings/settings-frontend.php:49
+msgid "Who can Create New Tickets?"
+msgstr "Chi può creare nuovi Tickets?"
+
+#: controls/settings/settings-frontend.php:52
+msgid "Only Registered Users"
+msgstr "Solo utenti registrati"
+
+#: controls/settings/settings-frontend.php:53
+msgid "Everyone"
+msgstr "Tutti gli utenti"
+
+#: controls/settings/settings-frontend.php:56
+msgid ""
+"Select 'Everyone' if you want to allow non-registered visitors to Create New "
+"Support Tickets. These visitors will be asked for name and email address in "
+"the process. No Wordpress Users will be created for visitors."
+msgstr ""
+"Selezionate 'Tutti gli utenti' se si vuole permettere agli utenti non "
+"registrati di creare Nuovi Tickets. A questi visitatori sarà chiesto di "
+"inserire Nome e Indirizzo Email. Non verranno create utenze di Wordpress per "
+"questi visitatori."
+
+#: controls/settings/settings-frontend.php:72
+#: controls/settings/settings-generic.php:83
+#: controls/settings/settings-notifications.php:267
+#: controls/settings/settings-system.php:123
+#: controls/settings/settings-ticket-categories.php:94
+msgid "Save Changes"
+msgstr "Salva Modifiche"
+
+#: controls/settings/settings-generic.php:12 controls/settings/settings.php:24
+msgid "Generic Helpdesk Settings"
+msgstr "Opzioni Generiche Helpdesk"
+
+#: controls/settings/settings-generic.php:23
+msgid "Support Agent:"
+msgstr "Agente Supporto:"
+
+#: controls/settings/settings-generic.php:29
+msgid "Change User"
+msgstr "Cambia Utente"
+
+#: controls/settings/settings-generic.php:32
+msgid ""
+"Select the User that will be considered the Helpdesk Agent. This User will "
+"be dealing with the Support Tickets, and all the Support Tickets will be "
+"assigned to this User."
+msgstr ""
+"Selezionare l'utente che verrà considerato come Operatore Helpdesk. Questo "
+"utente gestirà le richieste di Supporto."
+
+#: controls/settings/settings-generic.php:37
+msgid "Helpdesk Email Address:"
+msgstr "Email Sistema Helpdesk:"
+
+#: controls/settings/settings-generic.php:41
+msgid ""
+"The Email address used to send out Email Notifications and used as Recipient "
+"for Email Notifications about Customers actions."
+msgstr ""
+"L'indirizzo email utilizzato per spedire le notifiche email e utilizzato "
+"come destinarario per le notifiche provenienti dai Clienti."
+
+#: controls/settings/settings-generic.php:46
+msgid "Helpdesk Email Sender Name:"
+msgstr "Mittente Email Sistema Helpdesk:"
+
+#: controls/settings/settings-generic.php:50
+msgid ""
+"This is the text that will appear in the Email software, as Sender of the "
+"Helpdesk Email Notifications."
+msgstr ""
+"Questo è il testo che apparirà nel client di posta elettronica come '"
+"Mittente' dell'email."
+
+#: controls/settings/settings-generic.php:55
+msgid "Enable Attachments?"
+msgstr "Abilita Allegati?"
+
+#: controls/settings/settings-generic.php:59
+msgid ""
+"Check this option if you would like to enable Attachments for the Support "
+"Tickets."
+msgstr ""
+"Spuntare la casella per abilitare il caricamento di files alle richieste di "
+"Supporto"
+
+#: controls/settings/settings-generic.php:64
+msgid "Allowed Attachments Extensions:"
+msgstr "Estensioni Files Permesse:"
+
+#: controls/settings/settings-generic.php:68
+msgid ""
+"A comma separated list of the allowed file extensions for the Attachments. "
+"For example: txt,doc,xls,... Note: do not allow dangerous file extensions, "
+"like php or exe."
+msgstr ""
+"Una lista di voci separate da virgola con le estensioni dei files permessi, "
+"ad esempio: txt,doc,xls...<br/> Attenzione: non abilitare estensioni per "
+"files pericolisi, ad esempio php,exe,com..."
+
+#: controls/settings/settings-notifications.php:23
+msgid "List of Email Notifications"
+msgstr "Elenco Notifiche Email"
+
+#: controls/settings/settings-notifications.php:34
+msgid "Event"
+msgstr "Evento"
+
+#: controls/settings/settings-notifications.php:35
+msgid "Recipient"
+msgstr "Destinatario"
+
+#: controls/settings/settings-notifications.php:36
+msgid "Description"
+msgstr "Descrizione"
+
+#: controls/settings/settings-notifications.php:37
+#: controls/settings/settings-ticket-categories.php:25
+msgid "Edit"
+msgstr "Modifica"
+
+#: controls/settings/settings-notifications.php:138
+msgid "Manage Email Notification Details"
+msgstr "Gestisci Dettagli Notifica Email"
+
+#: controls/settings/settings-notifications.php:149
+msgid "Notification Settings"
+msgstr "Configurazione Notifiche"
+
+#: controls/settings/settings-notifications.php:152
+msgid "Edit Email Template"
+msgstr "Modifica Modello Email"
+
+#: controls/settings/settings-notifications.php:155
+msgid "Test Notification"
+msgstr "Test Notifica"
+
+#: controls/settings/settings-notifications.php:166
+msgid "Notification Name:"
+msgstr "Nome Notifica"
+
+#: controls/settings/settings-notifications.php:175
+msgid "Recipient:"
+msgstr "Destinatario:"
+
+#: controls/settings/settings-notifications.php:184
+msgid "Event Description:"
+msgstr "Descrizione Evento:"
+
+#: controls/settings/settings-notifications.php:193
+msgid "Enabled ?"
+msgstr "Attiva ?"
+
+#: controls/settings/settings-notifications.php:212
+msgid "Sender Email Address:"
+msgstr "Email Mittente:"
+
+#: controls/settings/settings-notifications.php:216
+msgid ""
+"The email that will be used as sender for this test. Usually, this is the "
+"admin's email address."
+msgstr ""
+"L'email che verrà utilizzata come 'Mittente' per questo test. Generalmente, "
+"è l'indirizzo email dell'utente Admin."
+
+#: controls/settings/settings-notifications.php:221
+msgid "Recipient Email Address:"
+msgstr "Email Desinatario:"
+
+#: controls/settings/settings-notifications.php:225
+msgid ""
+"This is the email address that the test will be sent to. Usually, this is "
+"your email address."
+msgstr ""
+"L'email che verrà utilizzata come 'Destinatario' per questo test. "
+"Generalmente, è il vostro indirizzo email."
+
+#: controls/settings/settings-notifications.php:230
+msgid "Send Email:"
+msgstr "Invio EMail:"
+
+#: controls/settings/settings-notifications.php:235
+msgid "Send Test Email"
+msgstr "Invia l'email di test"
+
+#: controls/settings/settings-system.php:13
+msgid "Helpdesk System Settings"
+msgstr "Opzioni Sistema Helpdesk"
+
+#: controls/settings/settings-system.php:24 controls/settings/settings.php:96
+msgid "System Settings"
+msgstr "Opzioni Sistema"
+
+#: controls/settings/settings-system.php:27
+msgid "Log Viewer"
+msgstr "Vedi Log"
+
+#: controls/settings/settings-system.php:39
+msgid "Delete Table Content when Uninstall?"
+msgstr "Elimina contenuto database su disinstallazione"
+
+#: controls/settings/settings-system.php:44
+msgid ""
+"Check this box if you want the tables created from this plugin to be deleted "
+"when uninstalling the plugin itself."
+msgstr ""
+"Spuntare questa casella se si desidera che le tabelle create da questo "
+"plugins siano eliminate dal database dopo la sua disinstallazione"
+
+#: controls/settings/settings-system.php:47
+msgid ""
+"Note: You will lose the Helpdesk plugin content if you check this box and "
+"uninstall the plugin!"
+msgstr ""
+"Attenzione: si perderà tutto il contenuto dell'Helpdesk se si spunta questa "
+"casella e si disinstalla questo plugin!"
+
+#: controls/settings/settings-system.php:56
+msgid "Select the Events to record in the System Log:"
+msgstr "Seleziona gli eventi da registrare nel log"
+
+#: controls/settings/settings-system.php:58
+msgid "Errors"
+msgstr "Errori"
+
+#: controls/settings/settings-system.php:60
+msgid "Email Notifications"
+msgstr "Notifiche Email"
+
+#: controls/settings/settings-system.php:62
+msgid "Debug Info"
+msgstr "Informazioni Debug"
+
+#: controls/settings/settings-system.php:64
+msgid ""
+"Select the events you would like to record in the System Event log file. "
+"Note: if you select 'Debug Info', the log file will drastically grow in "
+"size. Please use this option ONLY for debugging purpouses."
+msgstr ""
+"Selezionare gli eventi che si desidera registrare nel log di sistema. "
+"Attenzione: se si seleziona 'Informazioni di Debug', il log crescera in "
+"dimensioni molto rapidamente. Perfavore utilizzare questa opzioni solo in "
+"caso di debugging."
+
+#: controls/settings/settings-system.php:77
+msgid "View Event Log Content"
+msgstr "Vedi contenuto Log"
+
+#: controls/settings/settings-system.php:82
+msgid "Clear Event Log File"
+msgstr "Elimina contenuto Log"
+
+#: controls/settings/settings-system.php:87
+msgid "Download Log File"
+msgstr "Download contenuto Log"
+
+#: controls/settings/settings-system.php:97
+msgid "Date"
+msgstr "Data"
+
+#: controls/settings/settings-system.php:98
+msgid "Method"
+msgstr "Metodo"
+
+#: controls/settings/settings-system.php:99
+msgid "Type"
+msgstr "Tipo"
+
+#: controls/settings/settings-system.php:100
+msgid "Message / Details"
+msgstr "Messaggio / Dettaglio"
+
+#: controls/settings/settings-ticket-categories.php:13
+msgid "List of Support Ticket Categories"
+msgstr "Lista Categorie di Supporto"
+
+#: controls/settings/settings-ticket-categories.php:24
+msgid "Category Name"
+msgstr "Nome Categoria"
+
+#: controls/settings/settings-ticket-categories.php:42
+msgid "Create New Ticket Category"
+msgstr "Crea Nuova Categoria"
+
+#: controls/settings/settings-ticket-categories.php:64
+msgid "Create / Edit Support Ticket Category"
+msgstr "Crea / Modifica Categoria di Supporto"
+
+#: controls/settings/settings-ticket-categories.php:75
+msgid "Ticket Category Name:"
+msgstr "Nome Categoria"
+
+#: controls/settings/settings-ticket-categories.php:79
+msgid "The name / description for the Support Category"
+msgstr "Il nome della Categoria di Supporto."
+
+#: controls/settings/settings-ticket-categories.php:89
+msgid "Back to List"
+msgstr "Torna alla lista"
+
+#: controls/settings/settings.php:12
+msgid "Generic Settings"
+msgstr "Opzioni Generiche"
+
+#: controls/settings/settings.php:31
+msgid "FrontEnd Configuration"
+msgstr "Configurazione FrontEnd"
+
+#: controls/settings/settings.php:38
+msgid "Email Notifications Settings"
+msgstr "Opzioni Notifiche Email"
+
+#: controls/settings/settings.php:67
+msgid "Manage Ticket Categories"
+msgstr "Gestione Categorie di Supporto"
+
+#: controls/settings/settings.php:84
+msgid "System &amp; Diagnostic"
+msgstr "Sistema e Diagnostica"
+
+#: pages/dashboard.php:76
+msgid "Helpdesk &amp; Support Ticket website (coming soon)"
+msgstr "Helpdesk Support Tickets website (presto online)"
+
+#: pages/installationwizard.php:18
+msgid "Helpdesk &amp; Support Tickets"
+msgstr "Helpdesk Support Tickets"
+
+#: pages/installationwizard.php:19
+msgid "Installation Wizard"
+msgstr "Wizard Installazione"
+
+#: pages/installationwizard.php:29
+msgid "welcome"
+msgstr "benvenuti"
+
+#: pages/installationwizard.php:33
+msgid "frontpage"
+msgstr "frontpage"
+
+#: pages/installationwizard.php:37
+msgid "notifications"
+msgstr "notifiche"
+
+#: pages/installationwizard.php:41
+msgid "attachments"
+msgstr "allegati"
+
+#: pages/installationwizard.php:45
+msgid "finish"
+msgstr "fine"
+
+#: pages/installationwizard.php:54
+msgid "Welcome"
+msgstr "Benvenuti"
+
+#: pages/installationwizard.php:58
+msgid ""
+"A big 'Thank you!' for choosing Helpdesk &amp; Support Tickets plugin. This "
+"wizard will guide you through the installation process and will help you "
+"setting up the minimal configuration in order to start supporting your "
+"customers immediately. You can modify this configuration, as well as find "
+"other settings, at any time by clicking on the 'Settings' menu.<br /><br /"
+">Click on the button below to start."
+msgstr ""
+"Un grande 'Grazie!' per aver scelto Helpdesk e Support Tickets. Questo "
+"wizard vi guiderà attraverso l'installazione e vi aiuterà a configurare il "
+"tutto al fine di iniziare a fornire assistenza ai vostri clienti da subito. "
+"Potrete modificare queste opzioni in ogni momento cliccando sul menù '"
+"Opzioni'.<br><br>Cliccare sul pulsante seguente per iniziare."
+
+#: pages/installationwizard.php:68
+msgid "Start Installation"
+msgstr "Inizio Installazione"
+
+#: pages/installationwizard.php:80
+msgid "Helpdesk Front Page"
+msgstr "Pagina Clienti Helpdesk"
+
+#: pages/installationwizard.php:89
+msgid "Create a New Page"
+msgstr "Crea Nuova Pagina"
+
+#: pages/installationwizard.php:90
+msgid "Use an Existing Page"
+msgstr "Usa Pagina Esistente"
+
+#: pages/installationwizard.php:91
+msgid "Do not use Front End"
+msgstr "Non usare Pagina Clienti"
+
+#: pages/installationwizard.php:94
+msgid ""
+"The plugin will use a page of your website to collect Support Requests from "
+"your Customer. Please tell if you would like a new Page to be created or if "
+"you already have a support Page."
+msgstr ""
+"Il plugin utilizzerà una pagina del vostro sito per raccogliere richieste di "
+"Supporto dai vostri clienti. Perfavore, indicare se si desidera creare una "
+"nuova pagina o utilizzare una pagina esistente."
+
+#: pages/installationwizard.php:99
+msgid "Select Front Page:"
+msgstr "Seleziona Pagina Clienti:"
+
+#: pages/installationwizard.php:114
+msgid ""
+"Select the existing Page that will be used as Helpdesk Front End page. Note: "
+"you will need to manually add the shortcode:<br /><strong>[helpdesk-support-"
+"tickets]</strong>"
+msgstr ""
+"Selezionare la pagina del vostro sito che verrà usata come pagina di "
+"Supporto per i clienti. Attenzione: sarà necessario aggiungere manualmente "
+"lo shortcode: <strong>[helpdesk-support-tickets]</strong>"
+
+#: pages/installationwizard.php:119
+msgid "Name for the new Page:"
+msgstr "Nome per Nuova Pagina:"
+
+#: pages/installationwizard.php:123
+msgid ""
+"Type the name for the new Page that will be used as helpdesk Front-End page "
+"(for example: 'Support')."
+msgstr ""
+"Inserire il nome per la pagina che verrà usata come pagina di Supporto per i "
+"clienti (ad esempio: 'Supporto')"
+
+#: pages/installationwizard.php:139 pages/installationwizard.php:177
+#: pages/installationwizard.php:224
+msgid "Continue"
+msgstr "Continua"
+
+#: pages/installationwizard.php:151
+msgid "EMail Notifications"
+msgstr "Notifiche EMail"
+
+#: pages/installationwizard.php:157
+msgid "Email address for Helpdesk:"
+msgstr "Email per l'Helpdesk"
+
+#: pages/installationwizard.php:161
+msgid ""
+"This is the email address that shall be used as 'Sender' for the email "
+"notifications."
+msgstr ""
+"Questo è l'indirizzo email che sarà usato come 'Mittente' per le notifiche "
+"email."
+
+#: pages/installationwizard.php:189
+msgid "File Attachments"
+msgstr "Allegati"
+
+#: pages/installationwizard.php:195
+msgid "Enable Attachments"
+msgstr "Abilita caricamento allegati"
+
+#: pages/installationwizard.php:199
+msgid ""
+"Check this box if you want to allow files attachment to be uploaded to "
+"Support Tickets."
+msgstr "Spuntare la casella per abilitare gli allegati ai Tickets di Supporto."
+
+#: pages/installationwizard.php:204
+msgid "Allowed Extensions"
+msgstr "Estensioni files permesse"
+
+#: pages/installationwizard.php:208
+msgid ""
+"A comma separated list of the allowed file extensions for the Attachments. "
+"For example: txt,doc,xls,...<br />Note: do not allow dangerous file "
+"extensions, like php or exe."
+msgstr ""
+"Una lista di voci separate da virgola con le estensioni dei files permessi, "
+"ad esempio: txt,doc,xls...<br/> Attenzione: non abilitare estensioni per "
+"files pericolisi, ad esempio php,exe,com..."
+
+#: pages/installationwizard.php:236
+msgid "All done!"
+msgstr "Tutto a posto!"
+
+#: pages/installationwizard.php:240
+msgid ""
+"You have completed the installation phase. Click on the following button to "
+"start using the Plugin."
+msgstr ""
+"Avete completato la fase di installazione. Cliccare sul pulsante seguente "
+"per utilizzare il plugin."
+
+#: pages/installationwizard.php:242
+msgid "Contact us in case you need support or have questions!"
+msgstr "Contattaci nel caso di bisogno di supporto o per dubbi!"
+
+#: pages/installationwizard.php:255
+msgid "Go to Helpdesk"
+msgstr "Vai al tuo Helpdesk"

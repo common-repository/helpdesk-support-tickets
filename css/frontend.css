@@ -1,0 +1,411 @@
+
+/* ---------------------------------------------------------------------------------- */
+/* GENERIC*/
+
+.hst-frontend-main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+#hst-container
+{
+    font-family: Tahoma, helvetica, arial, sans-serif !important;
+    font-size:14px !important;
+    display:block;
+    position:relative;
+}
+.hst-asterisk {
+    color: red;
+}
+.hst-panels-input-haserror {
+    border-color: #d9534f !important;
+    /*background-color: #feebde !important;*/
+}
+.hst-fe-validation
+{
+    background-color: #f2dede;
+    margin-top: 15px;
+    padding: 8px 8px;
+    border-radius: 4px;
+    color: #a94442;
+    border: 1px #ebccd1 solid;
+}
+.hst-fe-validation i
+{
+    color:#ff5959;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.hst-fe-information {
+    background-color: #f9f9f9;
+    margin-top: 15px;
+    padding: 8px 8px;
+    border-radius: 4px;
+    color: #575757;
+    border: 1px #e5e5e5 solid;
+}
+.hst-fe-information i
+{
+    color:#575757;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.hst-ajax-loader {
+    background-color: #fff;
+    height: 100%;
+    left: 1px;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    top: 51px;
+    width: 100%;
+    z-index: 10005;
+    display:none;
+}
+
+    .hst-ajax-loader img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; /* presto! */
+        z-index: 1000;
+        width: 64px !important;
+        height: 64px !important;
+    }
+
+.hst-ajax-loader-show {
+    display: block;
+}
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* PANELS */
+.hst-frontend-panel-default {
+    border-color: #ddd;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    border-radius: 3px;
+}
+.hst-frontend-panel-default-title {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border-bottom: medium none;
+    color: #58666e;
+    font-weight: bold;
+    margin: -20px -20px 20px;
+    padding: 16px 20px;
+    text-transform: uppercase;
+}
+.hst-frontend-panel-parag
+{
+    margin-bottom:20px;
+    display:block;
+}
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* BUTTONS */
+
+.hst-button {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    color: #5d5c5c;
+    cursor: pointer;
+    padding-top: 5px;
+    float: left;
+    margin-right: 10px;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+    .hst-button > i {
+        margin-top: 3px;
+        display: block;
+        float: left;
+        margin-right: 6px;
+    }
+
+    .hst-button > span {
+        margin-top: 2px;
+        display: block;
+        float: left;
+    }
+
+    .hst-button:hover {
+        border: 1px solid #f3f3f3;
+        background: #f9f9f9;
+        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f9f9f9), to(#f7f7f7));
+        background: -moz-linear-gradient(#f9f9f9, #f7f7f7);
+        -pie-background: linear-gradient(#f9f9f9, #f7f7f7);
+        cursor: pointer;
+    }
+
+.hst-button-center {
+    width: 100px;
+    float: none !important;
+    margin: auto !important;
+}
+.hst-button-center > span {
+    float: none !important;
+}
+
+.hst-button-squared {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    color: #5d5c5c;
+    cursor: pointer;
+    padding-top: 8px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+    .hst-button-squared > i {
+        margin-bottom: 6px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+    }
+
+    .hst-button-squared > span {
+        font-size: 12px;
+    }
+
+    .hst-button-squared:hover {
+        border: 1px solid #f3f3f3;
+        background: #f9f9f9;
+        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f9f9f9), to(#f7f7f7));
+        background: -moz-linear-gradient(#f9f9f9, #f7f7f7);
+        -pie-background: linear-gradient(#f9f9f9, #f7f7f7);
+        cursor: pointer;
+    }
+
+
+.hst-button-genericbar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+/* INPUT CONTROLS */
+
+.hst-panels-input {
+    box-shadow: none !important;
+    border: 1px solid #dddddd;
+    padding: 4px 8px !important;
+}
+
+.hst-panels-input-fullwidth {
+    width: 100%;
+}
+
+.hst-panels-sidepanelrowformcontrol
+{
+    min-height: 30px;
+    margin-bottom: 20px;
+}
+
+.hst-panels-select
+{
+    box-shadow: none !important;
+    border: 1px solid #dddddd;
+    padding: 4px 8px !important;
+    height: auto !important;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* FORMS */
+
+.hst-panels-formlabel {
+    margin-top: 7px;
+    margin-bottom: 3px;
+    font-size:12px;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* RENDERING */
+
+.hst-ticketslist-block {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+.hst-ticketslist-block:hover
+{
+    cursor:pointer;
+}
+.hst-ticketslist-block:hover > .hst-ticketslist-block-tickettitle
+{
+    text-decoration:underline;
+}
+.hst-ticketslist-block-ticketid
+{
+    float: left;
+    background-color: #e2e2e2;
+    text-align: center;
+    padding: 8px 0px 9px 0px;
+    font-size:12px;
+}
+.hst-ticketslist-block-tickettitle
+{
+    padding: 9px 4px 7px 12px;
+    font-size: 12px;
+}
+.hst-ticketslist-block-status
+{
+    padding: 8px 4px 8px 0px;
+    font-size: 12px;
+}
+.hst-ticketslist-block-status .label
+{
+    font-weight:normal !important;
+    font-size: 90%;
+}
+
+.hst-ticketsview-datablock
+{
+    min-height: 26px;
+}
+.hst-ticketsview-label
+{
+    background-color: #e2e2e2;
+    font-size: 90%;
+    padding: 4px 0px 4px 7px;
+    border-radius: 2px;
+}
+.hst-ticketsview-label-value{
+    margin-top: 4px;
+}
+.hst-ticketsview-spacer
+{
+    border-top:1px dotted silver;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.hst-ticketsview-messageslist-messageblock 
+{
+    border:1px solid #e2e2e2;
+    padding:6px 6px 5px 6px;
+    background-color: #e4efe7;
+    margin-bottom:10px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.hst-ticketsview-messageslist-datepane
+{
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+.hst-ticketsview-messageslist-message{
+    font-size:14px;
+}
+.hst-ticketsview-messageslist-photoblock{
+    border:1px solid #e2e2e2;
+    background-color: #e2e2e2;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    padding:5px 6px 5px 6px;
+    min-height: 47px;
+}
+.hst-ticketsview-messageslist-photoblock img{
+    width: 32px !important;
+    height: 32px !important;
+    max-width: inherit;
+    border-radius: 4px;
+    margin-top: 1px;
+}
+
+.hst-ticketsview-messageslist-messageblock-others
+{
+    border:1px solid #e2e2e2;
+    padding:6px 6px 5px 6px;
+    background-color: #f9f9f9;
+    margin-bottom:10px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.hst-ticketsview-messageslist-photoblock-others{
+    border:1px solid #e2e2e2;
+    background-color: #e2e2e2;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    padding:5px 6px 5px 6px;
+    min-height: 47px;
+}
+
+
+#hst-fe-createticketconfirmation-div-ticketnumbergenerated
+{
+    border: #d6e9c6 1px solid;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #3c763d;
+    background-color: #dff0d8;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* ICONS */
+
+.hst-icon-check {
+    color:green;
+}
+.hst-icon-login {
+    color:#74C158;
+}
+.hst-icon-register {
+    color:#8f8f8f;
+}
+.hst-icon-createticket {
+    color:#74C158;
+}
+.hst-icon-sendmessage {
+    color:green;
+}
+.hst-icon-search {
+    color:#8f8f8f;
+}
+/* ---------------------------------------------------------------------------------- */
